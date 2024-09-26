@@ -1,8 +1,8 @@
 import { Urbanist } from 'next/font/google'
 
-import Footer from '@/components/footer' // Updated to lowercase 'footer'
+import Footer from '@/components/Footer' // Change to uppercase 'Footer'
 
-import Navbar from '@/components/navbar' // Updated to lowercase 'navbar'
+import Navbar from '@/components/Navbar' // This line is correct
 import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 export const metadata = {
